@@ -16,6 +16,4 @@ jobs:
       run: docker build -t devops-lab-app ./app
 
     - name: Deploy to Kubernetes
-      run: |
-        kubectl apply -f k8s/deployment.yml
-        kubectl apply -f k8s/service.yml
+      run: echo "Kubernetes deployment step placeholder"
